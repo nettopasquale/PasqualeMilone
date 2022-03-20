@@ -1,0 +1,102 @@
+
+.rodape .rodape--container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* padding: 30px; */
+    vertical-align: top;
+    background-color: #eaf2fd;
+    width: 100%;
+}
+
+.cabecalho--logo-rodape{
+   max-height: 51px;
+   /* margin-left: 9.9vw; */
+   position: relative;
+}
+
+.rodape--contato .rodape--contato--lista{
+    display: block;
+    
+}
+
+.contato--links{
+   text-decoration: none;
+   color: black;
+}
+
+ .contato--links:link{
+    color: black;
+}
+
+ .contato--links:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* mobile aqui */
+
+@media (max-width: 767px){
+.rodape .rodape--container{
+    display: block;
+}
+
+}
+
+/* tablet aqui  */
+@media (min-width: 768px) and (max-width: 1023px){
+
+
+
+}
+
+
+/* desktop aqui */
+
+
+@media(min-width: 1024px){
+
+    .rodape .rodape--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding-top: 1.5vh;
+        width: 100%;
+    }
+
+    .rodape--contato .rodape--contato--lista{
+        display: flex;
+        flex-flow: column wrap;
+        
+        gap: 10px;
+        /* margin: 10px; */
+        
+    }
+
+}
+
+
+/* desktop 4k aqui */
+
+
+@media(max-width: 2560px){
+
+    .rodape .rodape--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding-top: 1.5vh;
+        width: 100%;
+    }
+
+    .rodape--contato .rodape--contato--lista{
+        display: flex;
+        flex-flow: column wrap;
+        
+        gap: 10px;
+        /* margin: 10px; */
+        
+    }
+
+}

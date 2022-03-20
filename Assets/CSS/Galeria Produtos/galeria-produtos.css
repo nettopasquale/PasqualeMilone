@@ -1,0 +1,80 @@
+.galeria .galeria--container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    vertical-align: top;
+    /* padding: 10px; */
+}
+
+.galeria--container{
+    font-weight: bold;
+    color: #464646;
+    font-size: 2rem;
+    /* position: relative; */
+    /* left: 30px; */
+    /* margin: 10px; */
+    /* margin-bottom: 100px; */
+}
+
+
+.galeria--verTudo{
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    /* align-self: inherit; */
+    /* left: 69vw; */
+}
+
+.galeria--Produtos--links{
+    text-decoration: none;
+}
+
+.galeria--verTudo:visited{
+    color: var(--azul-clarinho);
+}
+
+ .galeria--Produtos{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    /* left: -170px; */
+    /* margin-top: 1.5rem; */
+    /* padding: .1rem; */
+}
+
+.galeria--Produtos--Imgs{
+    position: relative;
+    max-width: 176px;
+    max-height: 174px;
+    /* padding: 2rem; */
+    /* left: -10px; */
+}
+
+
+
+.galeria--Texto{
+    position: relative;
+    /* padding: 5px; */
+    /* left: 5px; */
+}
+
+.galeria--Texto-Titulo{
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: none;
+    /* left: -5px; */
+}
+
+.galeria--Texto-preco{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.galeria--Texto-verProduto{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2a7ae4;
+}

@@ -1,0 +1,80 @@
+.cabecalho .container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    /* align-self: stretch; */
+    /* margin: 1rem 2rem 1rem 2rem; */
+    /* width: 100%; */
+    /* max-width: 2560px; */
+}
+
+/* .cabecalho--logo{
+    
+} */
+
+.cabecalho--busca{
+    /* margin-right: 20vw; */
+    align-self: center;
+    position: relative;
+    width: 350px;
+    background-color: rgb(233, 235, 235);
+    /* padding: 15px; */
+    border-radius: 250px;
+    border-width: 0px;
+}
+
+.busca--Lupa{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+/* .busca--lupa-mobile{
+
+} */
+
+i{
+    font-size: 1rem;
+    color: rgb(126, 123, 123);
+}
+
+.menu--Login{
+    border: solid #2a7ae4;
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+    color: var(--azul-clarinho);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    /* justify-content: center; */
+}
+
+/* mobile aqui */
+
+@media (max-width: 767px){
+    .cabecalho--busca{
+        display: none;
+    }
+    .cabecalho--logo{
+        order: 0;
+    }
+
+    .menu--Login{
+        align-self: center;
+    }
+
+    .busca--Lupa{
+        order: 1;
+    }
+
+}
+
+/* tablet aqui  */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}

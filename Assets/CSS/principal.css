@@ -1,0 +1,39 @@
+@import url(./_reset.css);
+@import url(./variaveis.css);
+@import url(./node_modules/normalize.css/normalize.css);
+@import url(./cabecalho/style.css);
+
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* mobile aqui */
+
+@media (max-width: 767px){
+    .cabecalho--busca{
+        display: none;
+    }
+
+}
+
+
+/* tablet aqui  */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+
+/* desktop aqui */
+@media(min-width: 1024px){
+
+}
+
+/* desktop 4k aqui */
+@media(min-width: 2560px){
+
+}
+
