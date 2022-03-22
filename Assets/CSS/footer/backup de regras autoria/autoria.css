@@ -1,0 +1,10 @@
+.rodape--autoria{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.rodape--autoria p{
+    margin: 5px;
+}
