@@ -5,11 +5,11 @@
     position: relative;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2.2rem;
     gap: 8rem;
     margin: auto;
     width: 100%;
-    max-width: 2560px;
+    max-width: 160rem;
     vertical-align: top;
     background-color: #f0f0f0;
 }
@@ -102,33 +102,32 @@ a{
 
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 26.5rem){
     .galeria--container{
         padding: 2rem;
-        max-width: 425px;
+        max-width: 26.5rem;
     }
 }
 
 
 /* tablet aqui  */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 48rem){
 
     .galeria--container{
         padding: 2rem;
-        max-width: 768px;
+        max-width: 48rem;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 64rem){
 
     .galeria--container{
         padding: 2rem;
-        max-width: 768px;
+        max-width: 64rem;
     }
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 90rem){
 
 }
-

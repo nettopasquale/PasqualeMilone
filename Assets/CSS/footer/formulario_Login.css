@@ -10,8 +10,8 @@
 }
 
 .formulario--input{
-    width: 560px;
-    height: 56px;
+    width: 35rem;
+    height: 3.5rem;
     font-size: .8rem;
 }
 
@@ -43,7 +43,6 @@
     .formulario--input{
         width: 20.5rem;
         height: 3.5rem;
-        font-size: .8rem;
     }
 
     .formulario--button{
@@ -67,33 +66,5 @@
         margin-top: 1em;
         width: 9.43rem;
         height: 2.5rem;
-    }
-}
-
-
-
-/* desktop aqui */
-
-@media(min-width: 1024px){
-    .formulario{
-        display: flex;
-        flex-flow: column wrap;
-        align-items: flex-end;
-        position: relative;
-        /* right: 318px;  */
-    }
-}
-
-
-/* desktop 4k aqui */
-
-@media(max-width: 2560px){
-    .formulario{
-        display: flex;
-        flex-flow: column wrap;
-        align-items: flex-end;
-        position: relative;
-        /* right: 318px; */
-        
     }
 }

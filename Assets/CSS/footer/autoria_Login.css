@@ -1,0 +1,13 @@
+.rodape--autoria{
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+    max-width: 2560px;
+    max-height: 110px;
+}
+
+.rodape--autoria p{
+    margin: 5px;
+}

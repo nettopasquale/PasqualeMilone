@@ -4,7 +4,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2.3rem;
     vertical-align: top;
     background-color: #eaf2fd;
     width: 100%;
@@ -42,7 +42,7 @@
 
 /* mobile aqui */
 
-@media(max-width: 425px){
+@media(max-width: 26.5rem){
     .rodape .rodape--container{
         padding: 18rem;
         flex-flow: column wrap;
@@ -55,7 +55,7 @@
 
 /* tablet aqui  */
 
-@media(min-width: 426px) and (max-width: 768px){
+@media(max-width: 48rem){
 
     .rodape .rodape--container{
           padding: 9rem;
