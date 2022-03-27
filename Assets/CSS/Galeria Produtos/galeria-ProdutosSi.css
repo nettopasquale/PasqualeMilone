@@ -1,3 +1,6 @@
+.galeria{
+    background-color: #f0f0f0;
+}
 
 .galeria--container{
     display: flex;
@@ -5,7 +8,7 @@
     position: relative;
     align-items: center;
     justify-content: space-around;
-    padding: 2.2rem;
+    padding: 1rem 0 2rem;
     gap: 8rem;
     margin: auto;
     width: 100%;
@@ -40,21 +43,21 @@ a{
    display: flex;
    flex-flow: row wrap;
    justify-content: center;
-   margin: auto;
+   margin: 0;
    gap: 1.5rem;
-   padding: 2rem;
+   padding: 1rem 0 2rem;
    width: 100%;
    max-width: 2560px;
    background-color: #f0f0f0;
 }
 
-.galeria--Produtos--links{
+/* .galeria--Produtos--links{
     text-decoration: none;
 }
 
 .galeria--verTudo:visited{
     color: var(--azul-clarinho);
-}
+} */
 
 
 .galeria--Produtos--Imgs{
@@ -91,43 +94,95 @@ a{
     
 }
 
+/* tablet aqui  */
 
-/* mobile aqui */
+@media screen and (min-width: 48rem){
+    .galeria--container{
+        gap: 22rem;
+        vertical-align: top;
+    }
+    
+    
+    .galeria--container--titulo{
+        justify-content: space-around;
+        font-size: 2rem;
+    }
 
-@media screen and(max-width: 320px){
+    .galeria--container--titulo{
+        font-size: 2rem;
+    }
+    
+    .galeria--verTudo {
+        font-size: 1rem;
+    }
+
+    .galeria--Produtos{
+        gap: 1rem;
+     }
+
+     .galeria--Produtos--Imgs{
+        max-width: 11rem;
+        max-height: 10.875rem;
+    }
+    
+    .galeria--Texto{
+        margin-top: .5rem;
+        gap: .35rem;
+    }
+    
+    .galeria--Texto--Titulo{
+        font-size: .875rem;
+    }
+    
+    .galeria--Texto--Preco{
+        font-size: 1rem;
+    }
+    
+    .galeria--Texto--VerProduto{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Desktops aqui  */
+@media screen and (min-width: 64rem){
+    .galeria--container{
+        gap: 31rem;
+    }
+
+    .galeria--container--titulo{
+        font-size: 2rem;
+    }
+    
+    .galeria--verTudo {
+        font-size: 1rem;
+    }
+    
+    .galeria--Produtos--Imgs{
+        max-width: 11rem;
+        max-height: 10.875rem;
+    }
+    
+    .galeria--Texto{
+        margin-top: .5rem;
+        gap: .35rem;
+    }
+    
+    .galeria--Texto--Titulo{
+        font-size: .875rem;
+    }
+    
+    .galeria--Texto--Preco{
+        font-size: 1rem;
+    }
+    
+    .galeria--Texto--VerProduto{
+        font-size: 1rem;
+    }
     
 }
 
-@media screen and(max-width: 375px){
-
-}
-
-@media screen and (max-width: 26.5rem){
-    .galeria--container{
-        padding: 2rem;
-        max-width: 26.5rem;
-    }
-}
-
-
-/* tablet aqui  */
-
-@media screen and (max-width: 48rem){
-
-    .galeria--container{
-        padding: 2rem;
-        max-width: 48rem;
-    }
-}
-
-@media screen and (max-width: 64rem){
-
-    .galeria--container{
-        padding: 2rem;
-        max-width: 64rem;
-    }
-}
-
-@media screen and (max-width: 90rem){
+@media screen and (min-width: 160rem){
 
 }

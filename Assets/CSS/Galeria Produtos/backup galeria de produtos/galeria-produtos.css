@@ -1,0 +1,136 @@
+
+.galeria--container{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 8rem;
+    margin: auto;
+    width: 100%;
+    max-width: 2560px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+
+
+.galeria--container--titulo{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #464646;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #2a7ae4;
+}
+
+  .galeria--verTudo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #2a7ae4;
+}
+
+.galeria--Produtos{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: auto;
+   gap: 1.5rem;
+   padding: 2rem;
+   width: 100%;
+   max-width: 2560px;
+   background-color: #f0f0f0;
+}
+
+
+
+/* .galeria--Produtos--links{
+    text-decoration: none;
+}
+
+.galeria--verTudo:visited{
+    color: var(--azul-clarinho);
+} */
+
+
+.galeria--Produtos--Imgs{
+    max-width: 176px;
+    max-height: 174px;
+}
+
+.galeria--Texto{
+    display: flex;
+    flex-flow: column wrap;
+    text-decoration: none;
+    color: #464646;
+    margin-top: .5rem;
+    gap: .35rem;
+}
+
+.galeria--Texto--Titulo{
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.galeria--Texto--Preco{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.galeria--Texto--VerProduto{
+    font-size: 1rem;
+    font-weight: 700;
+    font-weight: bold;
+    color: #2a7ae4;
+    
+}
+
+
+/* mobile aqui */
+
+@media screen and(max-width: 320px){
+    
+}
+
+@media screen and(max-width: 375px){
+
+}
+
+@media screen and (max-width: 425px){
+    .galeria--container{
+        padding: 2rem;
+        max-width: 425px;
+    }
+}
+
+
+/* tablet aqui  */
+
+@media screen and (max-width: 768px){
+
+    .galeria--container{
+        padding: 2rem;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .galeria--container{
+        padding: 2rem;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+
+}
+

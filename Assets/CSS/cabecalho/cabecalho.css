@@ -1,34 +1,32 @@
 .cabecalho--container{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     align-items: center;
     justify-content: space-around;
     margin: auto;
     width: 100%;
-    max-width: 2000px;
-    padding: 2rem;
+    /* padding: 1rem; */
+    padding: 1rem 0 1rem;
+    background-color: #fff;
 }
 
 .cabecalho--logo{
-    position: relative;
+    width:11rem;
+    max-width: 7.5rem;
+    margin-right: 2rem;
 }
 
 ::placeholder{
     color: gray;
     opacity: 1;
-    font-size: 14px;
+    font-size: .875rem;
     margin: auto;
 }
 
 .cabecalho--busca{
-    padding: 1px;
-    align-self: center;
-    width: 350px;
-    height: 30px;
-    background-color: rgb(233, 235, 235);
-    border-radius: 250px;
-    border-width: 0px;
+    display: none;
 }
+
 
 .busca--Lupa{
     background-color: transparent;
@@ -38,7 +36,6 @@
     overflow: hidden;
     outline: none;
 }
-
 
 i{
     font-size: 1rem;
@@ -50,44 +47,38 @@ i{
     box-sizing: border-box;
     padding: 1rem 1.5rem;
     color: var(--azul-clarinho);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     text-decoration: none;
-    /* justify-content: center; */
-}
-
-/* mobile aqui */
-
-@media (max-width: 468px){
-
-    .cabecalho--container{
-        max-width: 468px;
-        justify-content: space-evenly;
-        gap:15rem;
-    }
-    .cabecalho--busca{
-        display: none;
-    }
-    .cabecalho--logo{
-        max-width: 120px;
-    }
-
-    .menu--Login{
-        position: absolute;
-        align-self: center;
-    }
-
-    .busca--Lupa{
-        order: 1;
-    }
-
 }
 
 /* tablet aqui  */
-@media (min-width: 768px) and (max-width: 1023px){
+
+@media(min-width: 48rem){
 
     .cabecalho--container{
-        max-width: 1023px;
+        max-width: 63.9375rem;
+        justify-content: space-evenly;
+    }
+
+    .cabecalho--busca{
+        display: flex;
+        padding: .0625rem;
+        align-self: center;
+        width: 21.875rem;
+        height: 2.5rem;
+        padding-left: 1rem;
+        background-color: rgb(233, 235, 235);
+        border-radius: 1.25rem;
+    }
+    
+}
+/* Desktop aqui  */
+
+@media(min-width: 64rem){
+
+    .cabecalho--container{
+        max-width: 92rem;
         justify-content: space-evenly;
     }
 

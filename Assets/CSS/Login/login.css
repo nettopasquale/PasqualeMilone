@@ -6,91 +6,79 @@
     margin: auto;
     gap: 1rem;
     width: 100%;
-    max-width: 160rem;
-    padding: 2.3rem;
+    padding: 1rem 0 2rem;
     background-color: #f0f0f0;
 }
 
 .Login--Iniciar--Sessao{
     color: #464646;
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 1rem;
     text-align: center;
 }
 
 .Login--Input{
-    width: 26.44rem;
+    width: 17.1875rem;
     height: 4rem;
 }
-
-
 
 .Login--Input-Texto{
     height: 5.125rem;
     text-align: top;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 
-
 .Login--Button{
+    position: relative;
+    left: 6rem;
     margin-top: 1em;
     background-color: #2a7ae4;
     border: solid #2a7ae4;
     color: white;
-    width: 26.9rem;
-    height: 4rem;
+    width: 6.8125rem;
+    height: 2.5rem;
     text-align: center;
 }
 
-
-
-/* mobile aqui */
-
-@media screen and (max-width: 26.5rem){
-    .Login--Input{
-        width: 17.19rem;
-        height: 2.5rem;
-    }
-
-    .Login--Button{
-        margin-top: 1em;
-        width: 6.8rem;
-        height: 2.5rem;
-        position: relative;
-        left: 5em;
-    }
-}
-
-
 /* tablet aqui  */
-@media (max-width: 48rem){
 
-    .Login--Input{
-        width: 17.19rem;
-        height: 2.5rem;
+@media(min-width: 48rem){
+    .Login--Iniciar--Sessao{
+        font-size: 1rem;
     }
-
+    
+    .Login--Input-Texto{
+        height: 5.125rem;
+        font-size: 1rem;
+    }
+    
     .Login--Button{
         margin-top: 1em;
-        width: 6.8rem;
+        width: 6.8125rem;
         height: 2.5rem;
-        position: relative;
-        left: 5em;
+        text-align: center;
+        font-size: .875rem;
     }
-
 }
 
+/* Desktop aqui  */
 
-/* desktop aqui */
-
-@media(min-width: 1024px){
-
-}
-
-
-/* desktop 4k aqui */
-
-@media(max-width: 2560px){
-
+@media(min-width: 64rem){
+    .Login--Iniciar--Sessao{
+        font-size: 1.125rem;
+    }
+    
+    .Login--Input{
+        width: 26.44rem;
+        height: 4rem;
+    }
+    
+    .Login--Button{
+        left: 0rem;
+        margin-top: 1em;
+        width: 26.9rem;
+        height: 4rem;
+        font-size: 1.125rem;
+    }
 }

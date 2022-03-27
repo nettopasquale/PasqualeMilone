@@ -7,10 +7,9 @@
 .banner--img{
     background-image: url(../../IMGs/banner.jpg); 
     width: 100%;
-    height: 50vw;
-    max-height: 30vw;
+    height: 37vw;
+    max-height: 12rem;
     box-shadow: inset 0 0 10rem black;
-    padding: 2rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,14 +18,12 @@
 
 .banner--text{
     position: absolute;
-    top: 22rem;
-    left: 15rem;
+    top: 3rem;
+    left: 1rem;
     margin: auto;
     text-align: left;
     width: 100%;
     max-width: 1440px;
-    /* font-size: 72px; */
-    font-family: 'Montserrat';
     font-weight: 700;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -34,24 +31,21 @@
 
 
 .banner--text--Titulo {
-    font-family: 'Montserrat';
-    font-size: 7rem;
+    font-size: 1.375rem;
     top: 1rem;
 }
 
 .banner--text--descricao{
-    font-size: 3.25rem;
-    margin-top: 1.5rem;
-    /* font-size: 52px; */
-    /* margin-top: 35px; */
+    font-size: 0.8rem;
+    margin-top: .5rem;
 }
 
 .banner--bto{
     position: absolute;
-    left: .5rem;
-    margin: auto;
-    margin-top: 1.5rem;
-    padding: 1.5vh 2.5vw;
+    left: -.2rem;
+    top: 4rem;
+    width: 6.43755rem;
+    height:1.5rem;
     background-color: #2a7ae4;
     border: solid #2a7ae4;
     text-decoration: none;
@@ -60,9 +54,144 @@
 .banner--bto--text{
     color: white;
     font-weight: lighter;
-    font-size: 1.5rem;
-    /* margin-top:10px; */
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
 }
 
+/* tablet aqui  */
 
-/* mobile aqui */
+@media(min-width: 48rem){
+    .banner--img{
+        height: 50vw;
+        max-height: 35vw;
+        /* padding: 2rem; */
+        margin: 0 auto;
+    }
+    
+    .banner--text{
+        top: 7rem;
+        left: 2rem;
+        max-width: 1440px;
+    }
+
+    .banner--text--Titulo {
+        font-size: 2.5rem;
+        top: 1rem;
+    }
+    
+    .banner--text--descricao{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    
+    .banner--bto{
+        left: .1rem;
+        top: 6rem;
+        width: 7.4375rem;
+        height:2.5rem;
+    }
+    
+    .banner--bto--text{
+        font-size: 0.875rem;
+        top: .8rem;
+        left: .9rem;
+    }
+}
+
+/* desktop aqui */
+@media(min-width: 64rem){
+    .banner--img{
+        height: 50vw;
+        max-height: 30vw;
+        /* padding: 2rem; */
+        margin: 0 auto;
+    }
+    
+    .banner--text{
+        top: 7rem;
+        left: 4rem;
+    }
+    
+    .banner--text--Titulo {
+        font-size: 3rem;
+        top: 1rem;
+    }
+    
+    .banner--text--descricao{
+        font-size: 1.25rem;
+        margin-top: .5rem;
+    }
+    
+    .banner--bto{
+        left: .1rem;
+        top: 6rem;
+        width: 9.125rem;
+        height:3.1875rem;
+    }
+    
+    .banner--bto--text{
+        font-size: 1.25rem;
+        top: .9rem;
+        left: .7rem;
+    }
+    
+}
+
+@media(min-width: 90rem){
+    .banner--text{
+        top: 13rem;
+    }
+    
+    
+    .banner--text--Titulo {
+        font-size: 4rem;
+    }
+    
+    .banner--text--descricao{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .banner--bto{
+        left: .1rem;
+        top: 8rem;
+    }
+    
+    .banner--bto--text{
+        font-size: 1.25rem;
+        top: .9rem;
+        left: .7rem;
+    }
+    
+}
+
+@media(min-width: 160rem){
+    .banner--text{
+        top: 25rem;
+    }
+    
+    .banner--text--Titulo {
+        font-size: 7rem;
+    }
+    
+    .banner--text--descricao{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    
+    .banner--bto{
+        left: .1rem;
+        top: 14rem;
+        width: 14.125rem;
+        height: 5.1875rem;
+    }
+    
+    .banner--bto--text {
+        font-size: 1.9rem;
+        top: 1.6rem;
+        left: 1.4rem;
+    }
+}

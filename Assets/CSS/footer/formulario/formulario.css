@@ -1,0 +1,77 @@
+.formulario--container{
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    gap: 1rem;
+}
+
+.formulario--faleConosco{
+    font-weight: bold;
+}
+
+
+.formulario--input{
+    width: 20.5rem;
+    height: 3.5rem;
+    font-size: .8rem;
+}
+
+.formulario--input--nome{
+    height: 2.5rem;
+}
+
+.formulario--input-texto{
+    height: 82px;
+    text-align: top;
+    font-size: .8rem;
+}
+
+.formulario--button{
+    margin-top: 1em;
+    background-color: #2a7ae4;
+    border: solid #2a7ae4;
+    color: white;
+    width: 9.44rem;
+    height: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+/* tablet aqui  */
+
+@media(min-width: 48rem){
+
+    .formulario--input{
+        width: 27.12rem;
+        height: 3.5rem;
+    }
+
+    .formulario--button{
+        margin-top: 1em;
+        width: 9.43rem;
+        height: 2.5rem;
+    }
+    
+}
+
+/* Desktop aqui  */
+
+@media(min-width: 64rem){
+    
+    .formulario--input{
+        width: 35rem;
+        height: 3.5rem;
+    }
+
+    .formulario--button{
+        margin-top: 1em;
+        width: 9.43rem;
+        height: 2.5rem;
+    }
+    
+}
