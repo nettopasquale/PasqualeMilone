@@ -5,7 +5,6 @@
     justify-content: space-around;
     margin: auto;
     width: 100%;
-    /* padding: 1rem; */
     padding: 1rem 0 1rem;
     background-color: #fff;
 }
@@ -27,26 +26,29 @@
     display: none;
 }
 
-
-.busca--Lupa{
+/* .busca--Lupa{
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
     overflow: hidden;
     outline: none;
-}
+} */
 
-i{
-    font-size: 1rem;
+
+
+.fa-magnifying-glass{
+    font-size: 20px;
     color: rgb(126, 123, 123);
+    position: relative;
+    
 }
 
 .menu--Login{
     border: solid #2a7ae4;
     box-sizing: border-box;
     padding: 1rem 1.5rem;
-    color: var(--azul-clarinho);
+    color: #2a7ae4;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     text-decoration: none;
@@ -71,6 +73,14 @@ i{
         background-color: rgb(233, 235, 235);
         border-radius: 1.25rem;
     }
+
+    .fa-magnifying-glass{
+        font-size: 14px;
+        color: rgb(126, 123, 123);
+        position: relative;
+        right: 12.8rem;
+        top: .1rem;
+    }
     
 }
 /* Desktop aqui  */
@@ -80,6 +90,11 @@ i{
     .cabecalho--container{
         max-width: 92rem;
         justify-content: space-evenly;
+    }
+
+    .fa-magnifying-glass{
+        right: 15.8rem;
+        top: .1rem;
     }
 
 }

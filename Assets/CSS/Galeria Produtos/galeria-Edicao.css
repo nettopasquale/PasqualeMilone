@@ -1,0 +1,24 @@
+.edicao--Container{
+    display: flex;
+    background-color: aqua;
+}
+
+
+
+/* tablet aqui  */
+
+@media screen and (min-width: 48rem){
+    .edicao--Container{
+
+    }
+
+}
+
+/* desktop aqui  */
+
+@media screen and (min-width: 64rem){
+    .edicao--Container{
+
+    }
+
+}

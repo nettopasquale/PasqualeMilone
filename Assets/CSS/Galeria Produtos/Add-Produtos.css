@@ -1,0 +1,252 @@
+.Add--Produto--Container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0 2rem;
+    background-color: var(--Fundo-Main);
+}
+
+.CaixaTexto--Produto{
+    display: flex;
+}
+
+.CaixaTexto--Produto--Texto{
+    color: var(--cinza-textos);
+    font-weight: 700;
+    font-size: 1.375rem;
+    margin: 1rem 1rem ;
+}
+
+.Area--Upload{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.Area--Caixa{
+    position: relative;
+    right: 0rem;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    border: 2px dotted #5a5a5a;
+    background-color: white;
+    width: 25rem;
+    height: 8.375rem;
+    font-size: .875rem;
+    color: var(--cinza-textos);
+    margin-bottom: .5rem;
+}
+
+.Area--Caixa.highlight{
+    background-color: #fffdaa;
+}
+
+.label-upload--Texto{
+    position: relative;
+    top: 5rem;
+    left: 4rem;
+}
+
+
+.fa-plus{
+    font-size: 40px;
+    position: relative;
+    top: 2.5rem;
+    left: 11rem;
+}
+
+.fa-image{
+    opacity: 0;
+}
+
+.image--arasta{
+    position: relative;
+    top: 2rem;
+    right: 8rem;
+    opacity: 0;
+}
+
+
+.upload--Alternativo{
+    display: none;
+}
+
+.area--Dispositivo{
+    display: none;
+}
+
+.Inputs--Produto--Container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.Input--Produto--Caixa{
+    width: 24.5rem;
+    height: 3.5rem;
+    margin-bottom: .5rem;
+    background-color: var(--brancoTexto-botoes);
+}
+
+.Produto--Nome{
+    font-size: .875rem;
+    color: var(--cinza-textos);
+    text-align: left;
+}
+
+.Produto--button{
+    color: var(--brancoTexto-botoes);
+    box-sizing: border-box;
+    border: 2px solid var(--azul-botoes);
+    background-color: var(--azul-botoes);
+    position: relative;
+    left: 1rem;
+    width: 24.5rem;
+    height: 3.5rem;
+}
+
+.Produto--button:hover{
+    cursor: pointer;
+}
+
+
+/* Tablet aqui */
+
+@media screen and (min-width: 48rem){
+    .Area--Upload{
+        justify-content: left;
+        text-align: center;
+        margin: 1rem 1rem;
+        gap: .5rem;
+    }
+    .Area--Caixa{
+        right: 10.5rem;
+    }
+
+    .upload--Alternativo{
+        display: flex;
+        font-size: 1rem;
+        position: relative;
+        top:3rem;
+        left: 8rem;
+    }
+
+    .label-upload--Texto{
+        top: 3rem;
+    }
+
+    .fa-plus{
+        opacity: 0;
+    }
+    
+    .fa-image{
+        opacity: 100;
+        font-size: 40px;
+        position: relative;
+        left: 9rem;
+        top: .5rem;
+    }
+    
+    
+    .area--Dispositivo{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        position: relative;
+        top: 2rem;
+        left: 9rem;
+        box-sizing: border-box;
+        background-color: none;
+        border: 2px solid var(--azul-botoes);
+        overflow: hidden;
+        outline:none;
+        cursor: pointer;
+        width: 14.4rem;
+        height: 3.19rem;
+    }
+    .area--Dispositivo--Texto{
+        color: var(--azul-botoes);
+        text-align: center;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .Inputs--Produto--Container{
+        right: 1rem
+    }
+    
+    fieldset{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .Input--Produto--Caixa{
+        width: 43.5rem;
+        height: 3.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .Produto--button{
+        left: 1rem;
+        width: 43.5rem;
+    }
+
+}
+
+
+/* Desktop aqui */
+@media screen and (min-width: 64rem){
+    .CaixaTexto--Produto{
+        justify-content: center;
+    }
+    
+    .CaixaTexto--Produto--Texto{
+        position: relative;
+        font-size: 2rem;
+        right: 12rem;
+    }
+
+    .Area--Upload{
+        justify-content: center;
+    }
+
+    .label-upload{
+        position: relative;
+        left: -2.5rem;
+    }
+
+    .label-upload--Texto{
+        top: 4rem;
+    }
+
+    .upload--Alternativo{
+        position: relative;
+        top: 3rem;
+        left: 8rem;
+    }
+    
+
+    .area--Dispositivo{
+        top: 2rem;
+        left: 9rem;
+    }
+
+    .Input--Produto--Caixa{
+        width: 44rem;
+        height: 3.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .Produto--button{
+        left: 1rem;
+        width: 44rem;
+    }
+
+}

@@ -41,6 +41,8 @@
     height: 3rem;
 }
 
+
+
 a{
     text-decoration: none;
     color: #2a7ae4;
@@ -82,6 +84,31 @@ a{
     font-size: 1rem;
     font-weight: 700;
     color: #464646;
+}
+
+.galeria--Edicao{
+    display: flex;
+    flex-flow: row;
+    margin-top: .5rem;
+    gap: .5rem
+    
+}
+
+.galeria--Editar .galeria--Excluir{
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: none;
+    background-repeat: no-repeat;
+    border: transparent;
+}
+
+.galeria--Editar{
+    color: rgb(55, 198, 55);
+}
+
+.galeria--Excluir{
+    color: rgb(192, 44, 44);
 }
 
 .galeria--Texto--VerProduto{

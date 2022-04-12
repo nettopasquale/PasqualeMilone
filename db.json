@@ -1,0 +1,47 @@
+{
+  "ProdutosCadastrados": [
+    {
+      "imagem": "https://i.imgur.com/J1AjfG9.png",
+      "titulo": "Produto Xyz",
+      "preco": 60,
+      "descricao": "descrição temporária",
+      "id": 1
+    },
+    {
+      "imagem": "Pdsdisodsd",
+      "titulo": "60",
+      "preco": "dhsudhsudhsudhsuhd",
+      "id": 2
+    },
+    {
+      "imagem": "Produto",
+      "titulo": "60,00",
+      "preco": "Descrição Pendente",
+      "id": 3
+    },
+    {
+      "imagem": {},
+      "titulo": "Produto 1",
+      "preco": "60,00",
+      "descricao": "Descrição 2",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

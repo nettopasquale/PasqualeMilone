@@ -41,6 +41,10 @@
     text-align: center;
 }
 
+.Login--Button:hover{
+    cursor: pointer;
+}
+
 /* tablet aqui  */
 
 @media(min-width: 48rem){

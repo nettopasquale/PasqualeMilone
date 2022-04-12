@@ -25,7 +25,7 @@
 .Produto--Texto{
     display: flex;
     flex-flow: column wrap;
-    color: #464646;
+    color: var(--cinza-textos);
     text-align: center;
     margin: 0 auto;
     margin-top: 6rem;
@@ -87,7 +87,6 @@
     .Produto{
         flex-flow: row;
         justify-content: space-between;
-        margin-left: 3rem;
     }
 
     .Produto--Img--Container{

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/principal.css">
+    <link rel="stylesheet" href="./Assets/CSS/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./Assets/CSS/Galeria Produtos/Add-Produtos.css">
+    <link rel="stylesheet" href="./Assets/CSS/footer/rodape contato/rodape-contato.css">
+    <link rel="stylesheet" href="./Assets/CSS/footer/formulario/formulario.css">
+    <link rel="stylesheet" href="./Assets/CSS/footer/autoria/autoria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+     rel="stylesheet">
+    <title>Alura Geek | Adicionar Produtos</title>
+</head>
+<body>
+    <header class="cabecalho--container">
+        <a href="paginaGeek.html"><img src="./Assets/IMGs/Logo.png" class="cabecalho--logo" alt="alura geek"></a>
+        <input class="cabecalho--busca" type="text"  placeholder="O que deseja encontrar?"
+        aria-label="O que deseja encontrar?">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="Alura-Geek-Login.html" class="menu--Login">Menu Administrador</a>  
+    </header>
+    <main>
+        <section class="Add--Produto--Container">
+            <div class="CaixaTexto--Produto">
+                <h2 class="CaixaTexto--Produto--Texto">Adicionar novo produto</h2>
+            </div>
+            <div class="Area--Upload Area--Caixa" id="caixaImagem">
+                <i class="fa-solid fa-plus fa-lg"></i>
+                <i class="fa-solid fa-image"></i>
+                <div class="label-upload--Texto">Clique ou arraste uma imagem para o produto</div>
+                <input type="file" id="image-arrasta" accept="image/png, image/jpg" class="image--arasta">
+                <div class="upload--Alternativo">ou</div>
+                <div class="area--Dispositivo">
+                    <label for="minhaImagem"></label>
+                        <input type="file" id="image-input" accept="image/png, image/jpg"
+                         class="area--Dispositivo--Texto">Procure no seu dispositivo
+                </div>
+            </div>
+                <!-- <label class="label-upload" > </label> -->
+                
+                    <!-- <p class="Caixa--Ou--Texto">ou</p> -->
+            <div class="Inputs--Produto--Container">
+                <form class="Inputs--Produto" id="cadastroProduto">
+                    <fieldset class="">
+                        <input name="nome-do-produto" class="Input--Produto--Caixa Produto--Nome" 
+                        id="nome-do-produto" cols="10" rows="10" data-nome aria-label="Nome do produto"
+                            placeholder="Nome do produto" required></input>
+                        <input name="preço-do-produto" class="Input--Produto--Caixa Produto--Preco" 
+                            id="preco-do-produto" cols="10" rows="10" data-preco aria-label="Preço do produto"
+                            placeholder="Preço do produto" required></input>
+                        <input name="descrição-do-produto" class="Input--Produto--Caixa Produto--descricao" 
+                            id="descricao-do-produto" cols="30" rows="10" data-descricao aria-label="Descrição do produto"
+                            placeholder="Descrição do produto" required></input>
+                    </fieldset>
+                <button type="submit" value="Adicionar produto" id="adicionar-produto" class="Produto--button">Adicionar produto</button>
+        </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape--container">
+            <div>
+            <img src="./Assets/IMGs/Logo.png" class="cabecalho--logo-rodape" alt="logo alura geek">    
+            </div>
+            <div>
+                <nav class="rodape--contato">
+                    <ul class="rodape--contato--lista">
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Quem somos nós</a></li>
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Politica de privacidade</a></li>
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Programa de fidelidade</a></li>
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Nossas lojas</a></li>
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Quero ser franqueado</a></li>
+                        <li class="contato--links">
+                            <a  class="contato--links" href="">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </div>
+                    <form class="formulario--container">
+                        <fieldset class="formulario">
+                          <legend class="formulario--faleConosco">Fale conosco</legend>
+                          <input type="text" class="formulario--input" aria-label="Nome" placeholder="Nome"
+                          pattern="[\w]{1,40}" id="formulario-nome" required>
+                         <input type="text" class="formulario--input formulario--input-texto" aria-label="Escreva sua mensagem" placeholder="Escreva sua mensagem"
+                         pattern="[\w]{1,120}" id="formulario-mensagem" required>
+                        </fieldset>
+                    <input type="submit" value="Enviar mensagem" class="formulario--button"></input>
+            </form>
+        </div>
+        <div class="rodape--autoria">
+            Desenvolvido por Pasquale Milone Netto
+            <p>2022</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d01a7e61f4.js" crossorigin="anonymous"></script>
+    <script type="module" src="./Assets/JS/controller/cadastraProdutos.js"></script>
+</body>
+</html>

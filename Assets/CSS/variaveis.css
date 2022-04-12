@@ -1,15 +1,10 @@
 :root{
-    --azul-clarinho: #2a7ae4;
-    --branco: white;
+    --azul-links: #2a7ae4;
+    --cinza-textos:#464646;
+    --brancoTexto-botoes: white;
+    --azul-botoes: #2a7ae4;
+    --Fundo-Main:  #f0f0f0;
 
     font-family: 'Raleway', sans-serif;
-
-    /* MOBILE */
-
-    /* TABLET */
-
-    /* DESKTOP */
-    --margem-esquerda: 29.5rem;
-    --margem-direita: 33.5rem;
 
 }
