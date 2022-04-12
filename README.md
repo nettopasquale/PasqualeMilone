@@ -4,6 +4,24 @@
                                           Em 6 semanas, devemos construir um site de e-commerce responsivo, que seja funcional.
 
 ##
+3ª e 4ª Semanas - Implementações feitas e mudanças:
+
+- Criação das páginas de cadastro de produtos para o administrador;
+- Implementação de script para cadastro, edição e exclusão de produtos;
+- Database usando o JSon Server
+
+##
+2ª Semana - Implementações feitas:
+
+- Criação de uma página de produtos;
+- Criação de uma página de Login;
+- Criação de uma página de edição de produtos, para o administrador;
+- Revisão total das regras de CSS nas páginas: agora as regras seguem o design orientado para mobile-first; as medidas foram alteradas para serem calculadas em REM;
+    - as regras do cabeçalho; rodapé, formulário e autoria foram devidamente separadas em cada arquivo, tornando a leitura mais fácil e organizada; melhoras do padrão
+    - BEM nas classes de CSS;
+    
+##
+
 1ª Semana - Implementações feitas:
 
 - Criação da Home-page;
@@ -19,24 +37,14 @@ Pontos importantes:
 - Responsividade aplicada na home page;
 
 ##
+3 e 4ª Semanas - Problemas e Revisões:
 
--
-2ª Semana - Implementações feitas:
-
-- Criação de uma página de produtos;
-- Criação de uma página de Login;
-- Criação de uma página de edição de produtos, para o administrador;
-- Revisão total das regras de CSS nas páginas: agora as regras seguem o design orientado para mobile-first; as medidas foram alteradas para serem calculadas em REM;
-    - as regras do cabeçalho; rodapé, formulário e autoria foram devidamente separadas em cada arquivo, tornando a leitura mais fácil e organizada; melhoras do padrão
-    - BEM nas classes de CSS;
-
-##
-1ª- Problemas e revisões.
-A primeira dificuldade que precisa ser resolvida, é criar a responsividade da página. O uso de media queries foi utilizado para isso, porém existem pontos de 
-quebra cegos que precisam ser resolvidos. Além disso, houveram situações em que regras de media query, para dimensões de tablet e desktop, pareciam sobrescrever e negar as regras das dimensões de mobile.
-
-Regras de HTML e CSS - Potenciais melhoras:
-- Revisar regras de HTML e CSS para deixar o código mais limpo.
+- Implementar scripts de validação de formulários e login;
+- estilizar corretamente os botões de input type:file
+- Resolver: fetch do da rota de cada produto pelo id da url;
+    - Template String com {id} no final de "http://url/${id}" por alguma razão não funciona; DELETE method não funciona
+    - Consequência: Não é possível deletar os produtos pelo database via o método DELETE;
+- new ReadFile e readFileAsURL devolvem a imagem upada como objeto vazio ao invez de uma string;
 
 ##
 2ª- Problemas e revisões.
@@ -50,3 +58,11 @@ Regras de HTML e CSS - Potenciais melhoras:
 - Adicionar icones de edição e deletar em cada imagem na Página do Admin.
 - Melhorar o posicionamento dos elementos do cabeçalho, quando este estiver na tela mobile
 - Melhorar a barra de busca do cabeçalho para ficar mais próxima ao design proprosto.
+
+##
+1ª- Problemas e revisões.
+A primeira dificuldade que precisa ser resolvida, é criar a responsividade da página. O uso de media queries foi utilizado para isso, porém existem pontos de 
+quebra cegos que precisam ser resolvidos. Além disso, houveram situações em que regras de media query, para dimensões de tablet e desktop, pareciam sobrescrever e negar as regras das dimensões de mobile.
+
+Regras de HTML e CSS - Potenciais melhoras:
+- Revisar regras de HTML e CSS para deixar o código mais limpo.
